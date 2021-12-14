@@ -24,6 +24,5 @@ var blues = blues.fontcolor("blue"); //making color blue
 document.write(blues);   
 
 
-{p
-Document.write(3+3);
-}
+
+document.write(3+3);
