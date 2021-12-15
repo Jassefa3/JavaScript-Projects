@@ -1,20 +1,17 @@
-let car = "Fiat";
 
-const car = {type:"Fiat", model:"500", color:"white"};
 
-objectName.propertyName
+function const_function() { 
+    var Person = {
+        firstName: "Bob",
+        lastName : "Doe",
+        id       : 5566,
+    
 
-const person = const_function() {       //example of method function
-    firstName: "Dictionary",
-    lastName : "Doe",
-    id       : 5566,
-    fullName : function() 
-      return this.firstName + " " + this.lastName;
-     }
+    };      //example of method function
+    document.getElementById("Dictionary2").innerHTML = Person.firstName + " " + Person.lastName;
+     
+}
 
-  x = new string();        // Declares x as a String object
-y = new number();        // Declares y as a Number object
-z = new boolean();       // Declares z as a Boolean object
 
 function my_Dictionary() {
     var Animal = {
@@ -22,7 +19,7 @@ function my_Dictionary() {
         Color:"Black",
         Breed:"Labrador",
         Age:5,
-        Sound:"Bark!"
+        Sound:"Bark!",
     };
     delete Animal.Sound;
     document.getElementById("Dictionary").innerHTML = Animal.Sound;
