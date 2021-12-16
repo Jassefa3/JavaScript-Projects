@@ -33,13 +33,19 @@ function precision_Method() {
 }
 
 function fixed_Method() {
-    var totn_string = 'TechOnTheNet';
-    var string = string.fixed()
-    document.getElementById("Fixed").innerHTML = X.tostring();
+    let totn_string = 'TechOnTheNet';
+    let result = totn_string.fixed();
+    document.getElementById("Fixed").innerHTML = result;
 }
 
 function valueOf_Method() {
-    var totn_string = 'the best';
-    var string = string.valueOf()
-    document.getElementById("value").innerHTML = X.tostring();
+    let totn_string = 'the best';
+    let result = totn_string.valueOf();
+    document.getElementById("value").innerHTML = result;
+}
+
+function slice_method() {
+    const fruits= ["Bananas", "Apples", "Oranges", "Grapes", "Melon"];
+    const citrus = fruits.slice(1, 4);
+    document.getElementById("fruit").innerHTML = citrus;
 }
