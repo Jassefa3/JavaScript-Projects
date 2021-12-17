@@ -21,7 +21,7 @@ function for_Loop() {
       Custom_Picture[2] = "eating";
       Custom_Picture[3] = "purring";
       document.getElementById("Cat").innerHTML = "In this picture, the cat is " +
-        Cat_Picture[2] + ".";
+        Custom_Picture[2] + ".";
   }
 
   function constant_function() {
